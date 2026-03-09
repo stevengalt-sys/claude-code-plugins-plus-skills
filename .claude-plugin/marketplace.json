@@ -6038,6 +6038,29 @@
         "email": "plugins@claudecodeplugins.io",
         "url": "https://claudecodeplugins.io"
       }
+    },
+    {
+      "name": "engineering",
+      "source": "./plugins/knowledge-work-plugins/engineering",
+      "description": "Software engineering knowledge-work toolkit for Claude Code. Write design docs, architecture decision records, and structured code review guides.",
+      "version": "1.0.0",
+      "category": "knowledge-work-plugins",
+      "keywords": [
+        "engineering",
+        "design-docs",
+        "architecture",
+        "adr",
+        "code-review",
+        "knowledge-work",
+        "technical-writing",
+        "rfc",
+        "software-design"
+      ],
+      "author": {
+        "name": "ClaudeCodePlugins",
+        "email": "plugins@claudecodeplugins.io",
+        "url": "https://claudecodeplugins.io"
+      }
     }
   ]
 }

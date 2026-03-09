@@ -1,0 +1,23 @@
+{
+  "name": "engineering",
+  "version": "1.0.0",
+  "description": "Software engineering knowledge-work toolkit for Claude Code. Write design docs, architecture decision records, and structured code review guides.",
+  "author": {
+    "name": "ClaudeCodePlugins",
+    "email": "plugins@claudecodeplugins.io",
+    "url": "https://claudecodeplugins.io"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/plugins/knowledge-work-plugins/engineering",
+  "keywords": [
+    "engineering",
+    "design-docs",
+    "architecture",
+    "adr",
+    "code-review",
+    "knowledge-work",
+    "technical-writing",
+    "rfc",
+    "software-design"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "Data knowledge-work toolkit for Claude Code. Generate analysis reports, design data pipelines, and audit data quality using structured patterns.",
+  "author": {
+    "name": "ClaudeCodePlugins",
+    "email": "plugins@claudecodeplugins.io",
+    "url": "https://claudecodeplugins.io"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/plugins/knowledge-work-plugins/data",
+  "keywords": [
+    "data",
+    "analytics",
+    "data-pipeline",
+    "data-quality",
+    "etl",
+    "knowledge-work",
+    "reporting",
+    "data-analysis",
+    "data-engineering"
+  ]
+}

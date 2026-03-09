@@ -6211,6 +6211,33 @@
         "skills": 3,
         "commands": 3
       }
+    },
+    {
+      "name": "data",
+      "source": "./plugins/knowledge-work-plugins/data",
+      "description": "Data knowledge-work toolkit for Claude Code. Generate analysis reports, design data pipelines, and audit data quality using structured patterns.",
+      "version": "1.0.0",
+      "category": "knowledge-work-plugins",
+      "keywords": [
+        "data",
+        "analytics",
+        "data-pipeline",
+        "data-quality",
+        "etl",
+        "knowledge-work",
+        "reporting",
+        "data-analysis",
+        "data-engineering"
+      ],
+      "author": {
+        "name": "ClaudeCodePlugins",
+        "email": "plugins@claudecodeplugins.io",
+        "url": "https://claudecodeplugins.io"
+      },
+      "components": {
+        "skills": 3,
+        "commands": 3
+      }
     }
   ]
 }

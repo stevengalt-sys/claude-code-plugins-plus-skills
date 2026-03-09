@@ -6015,6 +6015,28 @@
         "name": "B12.io",
         "url": "https://github.com/b12io"
       }
+    },
+    {
+      "name": "daymade-markdown-tools",
+      "source": "./plugins/productivity/daymade-markdown-tools",
+      "description": "Convert documents (PDF, DOCX, PPTX) to high-quality markdown with intelligent multi-tool orchestration. Supports Quick Mode for fast single-tool conversion and Heavy Mode for best-quality multi-tool merge using pymupdf4llm, markitdown, and pandoc.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "markdown",
+        "pdf",
+        "docx",
+        "pptx",
+        "conversion",
+        "document",
+        "pymupdf4llm",
+        "markitdown",
+        "pandoc"
+      ],
+      "author": {
+        "name": "daymade",
+        "url": "https://github.com/daymade"
+      }
     }
   ]
 }

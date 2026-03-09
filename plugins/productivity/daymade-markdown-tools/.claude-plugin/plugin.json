@@ -1,0 +1,22 @@
+{
+  "name": "daymade-markdown-tools",
+  "version": "1.0.0",
+  "description": "Convert documents (PDF, DOCX, PPTX) to high-quality markdown with intelligent multi-tool orchestration. Supports Quick Mode for fast single-tool conversion and Heavy Mode for best-quality multi-tool merge.",
+  "author": {
+    "name": "daymade",
+    "email": "daymade@claudecodeplugins.io"
+  },
+  "repository": "https://github.com/daymade/claude-code-skills",
+  "license": "MIT",
+  "keywords": [
+    "markdown",
+    "pdf",
+    "docx",
+    "pptx",
+    "conversion",
+    "document",
+    "pymupdf4llm",
+    "markitdown",
+    "pandoc"
+  ]
+}

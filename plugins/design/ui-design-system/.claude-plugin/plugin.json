@@ -1,0 +1,9 @@
+{
+  "name": "ui-design-system",
+  "version": "1.0.0",
+  "description": "UI design system toolkit for generating design tokens, component documentation, responsive design calculations, and developer handoff tools.",
+  "author": {
+    "name": "Intent Solutions"
+  },
+  "keywords": ["design-system", "design-tokens", "ui", "css", "typography", "color-palette", "responsive", "accessibility", "wcag", "developer-handoff"]
+}

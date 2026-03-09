@@ -6015,6 +6015,30 @@
         "name": "B12.io",
         "url": "https://github.com/b12io"
       }
+    },
+    {
+      "name": "ui-design-system",
+      "source": "./plugins/design/ui-design-system",
+      "description": "UI design system toolkit for generating design tokens, component documentation, responsive design calculations, and developer handoff tools. Generates complete token systems from a brand color including colors, typography, spacing, shadows, and more.",
+      "version": "1.0.0",
+      "category": "design",
+      "keywords": [
+        "design-system",
+        "design-tokens",
+        "ui",
+        "css",
+        "typography",
+        "color-palette",
+        "responsive",
+        "accessibility",
+        "wcag",
+        "developer-handoff",
+        "scss",
+        "component-library"
+      ],
+      "author": {
+        "name": "Intent Solutions"
+      }
     }
   ]
 }

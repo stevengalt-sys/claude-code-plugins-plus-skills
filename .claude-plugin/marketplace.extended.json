@@ -2789,6 +2789,30 @@
       }
     },
     {
+      "name": "lms-capability-framework",
+      "source": "./plugins/productivity/lms-capability-framework",
+      "description": "Enterprise Learning Management System capability framework covering course management, user roles, assessment, certification, reporting, integrations, and content authoring",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "lms",
+        "learning-management",
+        "enterprise",
+        "course-management",
+        "assessment",
+        "certification",
+        "elearning",
+        "scorm",
+        "training"
+      ],
+      "author": {
+        "name": "SpillwaveSolutions"
+      },
+      "components": {
+        "skills": 1
+      }
+    },
+    {
       "name": "make-scenario-builder",
       "source": "./plugins/ai-agency/make-scenario-builder",
       "description": "Create Make.com (Integromat) scenarios with AI assistance",

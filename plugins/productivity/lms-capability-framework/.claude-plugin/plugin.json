@@ -1,0 +1,18 @@
+{
+  "name": "lms-capability-framework",
+  "version": "1.0.0",
+  "description": "Enterprise Learning Management System capability framework covering course management, user roles, assessment, reporting, integrations, and content authoring",
+  "author": "SpillwaveSolutions",
+  "repository": "https://github.com/SpillwaveSolutions/confluence-skill",
+  "license": "MIT",
+  "keywords": [
+    "lms",
+    "learning-management",
+    "enterprise",
+    "course-management",
+    "assessment",
+    "certification",
+    "elearning",
+    "scorm"
+  ]
+}

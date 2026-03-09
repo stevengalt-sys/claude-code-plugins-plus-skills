@@ -2924,7 +2924,7 @@
     {
       "name": "microsoft-docs-mcp",
       "source": "./plugins/mcp/microsoft-docs-mcp",
-      "description": "MCP server for searching and reading Microsoft Learn documentation",
+      "description": "Official Microsoft Learn MCP server for searching docs, fetching articles, and finding code samples",
       "version": "1.0.0",
       "category": "documentation",
       "keywords": [
@@ -2933,12 +2933,13 @@
         "docs",
         "documentation",
         "microsoft-learn",
-        "search"
+        "search",
+        "code-samples"
       ],
       "author": {
-        "name": "Nicholas Griffin"
+        "name": "Microsoft"
       },
-      "mcpTools": 2
+      "mcpTools": 3
     },
     {
       "name": "ml-model-trainer",

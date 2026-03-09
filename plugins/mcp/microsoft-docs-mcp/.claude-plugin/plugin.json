@@ -1,10 +1,10 @@
 {
   "name": "microsoft-docs-mcp",
   "version": "1.0.0",
-  "description": "MCP server for searching and reading Microsoft Learn documentation",
-  "author": "Nicholas Griffin",
-  "repository": "https://github.com/nicholasgriffintn/microsoft-docs-mcp",
-  "homepage": "https://github.com/nicholasgriffintn/microsoft-docs-mcp",
+  "description": "Official Microsoft Learn MCP server for searching docs, fetching articles, and finding code samples",
+  "author": "Microsoft",
+  "repository": "https://github.com/MicrosoftDocs/mcp",
+  "homepage": "https://learn.microsoft.com/training/support/mcp",
   "license": "MIT",
   "keywords": [
     "mcp",
@@ -12,6 +12,7 @@
     "docs",
     "documentation",
     "microsoft-learn",
-    "search"
+    "search",
+    "code-samples"
   ]
 }

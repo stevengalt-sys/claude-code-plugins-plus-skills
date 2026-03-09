@@ -1,11 +1,12 @@
 # Microsoft Docs MCP
 
-An MCP server that provides tools to search and read Microsoft Learn documentation.
+Official Microsoft Learn MCP server that provides real-time, trusted Microsoft documentation and code samples. No API keys, logins, or sign-ups required.
 
 ## Tools
 
-- **search_microsoft_learn** - Search Microsoft Learn documentation
-- **get_microsoft_learn_page** - Get the full content of a Microsoft Learn documentation page
+- **microsoft_docs_search** - Search through Microsoft's latest official documentation
+- **microsoft_docs_fetch** - Fetch a complete documentation article by URL or path
+- **microsoft_code_sample_search** - Search through Microsoft code samples with language-specific filtering
 
 ## Installation
 
@@ -13,16 +14,22 @@ An MCP server that provides tools to search and read Microsoft Learn documentati
 ccpi install microsoftdocs/mcp
 ```
 
+Or manually add the MCP server:
+
+```bash
+claude mcp add microsoft-learn --transport http --url https://learn.microsoft.com/api/mcp
+```
+
 ## Configuration
 
-This plugin uses the following MCP server configuration:
+This plugin uses a remote MCP server (no local process required):
 
 ```json
 {
   "mcpServers": {
-    "microsoft-docs": {
-      "command": "npx",
-      "args": ["-y", "@nicholasgriffintn/microsoft-docs-mcp"]
+    "microsoft-learn": {
+      "type": "http",
+      "url": "https://learn.microsoft.com/api/mcp"
     }
   }
 }
@@ -30,4 +37,4 @@ This plugin uses the following MCP server configuration:
 
 ## Credits
 
-Built by [Nicholas Griffin](https://github.com/nicholasgriffintn).
+Built by [Microsoft](https://github.com/MicrosoftDocs/mcp).

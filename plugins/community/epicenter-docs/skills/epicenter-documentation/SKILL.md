@@ -5,7 +5,7 @@ description: |
   Provides documentation for Epicenter's local-first architecture, Svelte 5 + Tauri stack,
   plain text and SQLite storage patterns, and AI model integration.
   Trigger phrases: "epicenter", "whispering app", "local-first apps", "epicenter transcription".
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash(pnpm:*), Bash(npm:*), Bash(cargo:*), WebFetch
+allowed-tools: Read, Write, Edit, Glob, Grep, Bash(bun:*), Bash(cargo:*), WebFetch
 version: 1.0.0
 author: EpicenterHQ <hello@epicenter.so>
 ---
@@ -29,8 +29,10 @@ Epicenter stores all data — notes, transcripts, chat histories — in a single
 ### Tech Stack
 | Layer | Technology |
 |-------|-----------|
-| Frontend | Svelte 5 (97% code sharing desktop/web) |
+| Frontend | Svelte 5 with runes (97% code sharing desktop/web) |
 | Desktop | Tauri (Rust, ~22MB binary) |
+| Runtime | Bun |
+| Transcription | transcribe-rs (Rust library unifying speech-to-text engines) |
 | Storage | Plain text files + SQLite |
 | Sync | CRDTs |
 | AI | OpenAI, Anthropic, Google Gemini, Groq, local LLMs |
@@ -53,8 +55,8 @@ The first Epicenter app — voice transcription with AI transformations.
 
 ### Features
 - Voice-activated hands-free mode (no button holding)
-- Local transcription via whisper.cpp (audio never leaves device)
-- Cloud transcription via OpenAI Whisper API
+- Local transcription engines: Whisper.cpp (65 languages), Parakeet/NVIDIA (English), Moonshine (ONNX), Speaches
+- Cloud transcription via OpenAI Whisper API or any OpenAI-compatible endpoint
 - Customizable AI transformations (any prompt, any model)
 - Desktop: Mac (Intel + Apple Silicon), Windows, Linux
 - Web: any modern browser
@@ -63,16 +65,16 @@ The first Epicenter app — voice transcription with AI transformations.
 ### Development Setup
 ```bash
 git clone https://github.com/EpicenterHQ/epicenter.git
-cd epicenter && pnpm install
+cd epicenter && bun install
 
 # Web development
-cd apps/whispering && pnpm dev
+cd apps/whispering && bun dev
 
 # Desktop development (requires Rust toolchain)
-cd apps/whispering && pnpm tauri dev
+cd apps/whispering && bun tauri dev
 
 # Build desktop app
-cd apps/whispering && pnpm tauri build
+cd apps/whispering && bun tauri build
 ```
 
 ### AI Model Configuration

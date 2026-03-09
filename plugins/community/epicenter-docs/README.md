@@ -29,4 +29,4 @@ Epicenter is an ecosystem of open-source, local-first apps that store all data â
 
 ## License
 
-MIT
+AGPL-3.0

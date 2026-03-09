@@ -8,7 +8,7 @@
   },
   "repository": "https://github.com/EpicenterHQ/epicenter",
   "homepage": "https://epicenter.so",
-  "license": "MIT",
+  "license": "AGPL-3.0",
   "keywords": [
     "epicenter",
     "local-first",

@@ -1,0 +1,23 @@
+{
+  "name": "operations",
+  "version": "1.0.0",
+  "description": "Operational workflow toolkit for Claude Code. Build runbooks, map processes, and conduct incident reviews using structured knowledge-work patterns.",
+  "author": {
+    "name": "ClaudeCodePlugins",
+    "email": "plugins@claudecodeplugins.io",
+    "url": "https://claudecodeplugins.io"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jeremylongshore/claude-code-plugins/tree/main/plugins/knowledge-work-plugins/operations",
+  "keywords": [
+    "operations",
+    "runbooks",
+    "process-mapping",
+    "incident-review",
+    "sop",
+    "knowledge-work",
+    "workflows",
+    "postmortem",
+    "operational-excellence"
+  ]
+}

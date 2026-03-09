@@ -6015,6 +6015,29 @@
         "name": "B12.io",
         "url": "https://github.com/b12io"
       }
+    },
+    {
+      "name": "operations",
+      "source": "./plugins/knowledge-work-plugins/operations",
+      "description": "Operational workflow toolkit for Claude Code. Build runbooks, map processes, and conduct incident reviews using structured knowledge-work patterns.",
+      "version": "1.0.0",
+      "category": "knowledge-work-plugins",
+      "keywords": [
+        "operations",
+        "runbooks",
+        "process-mapping",
+        "incident-review",
+        "sop",
+        "knowledge-work",
+        "workflows",
+        "postmortem",
+        "operational-excellence"
+      ],
+      "author": {
+        "name": "ClaudeCodePlugins",
+        "email": "plugins@claudecodeplugins.io",
+        "url": "https://claudecodeplugins.io"
+      }
     }
   ]
 }

@@ -5487,6 +5487,29 @@
       }
     },
     {
+      "name": "json-prompting-playbook",
+      "source": "./plugins/ai-ml/json-prompting-playbook",
+      "description": "Convert natural language image descriptions into structured JSON prompts for AI image generation with reproducible, high-quality results",
+      "version": "1.0.0",
+      "category": "ai-ml",
+      "keywords": [
+        "json-prompting",
+        "image-generation",
+        "ai-art",
+        "prompt-engineering",
+        "nano-banana",
+        "structured-prompts",
+        "photography"
+      ],
+      "author": {
+        "name": "Duncan Rogoff",
+        "email": "duncan@nanobananapro.com"
+      },
+      "components": {
+        "skills": 1
+      }
+    },
+    {
       "name": "juicebox-pack",
       "source": "./plugins/saas-packs/juicebox-pack",
       "description": "Complete Juicebox integration skill pack with 24 skills covering people data, enrichment, contact search, and AI-powered discovery. Flagship tier vendor pack.",

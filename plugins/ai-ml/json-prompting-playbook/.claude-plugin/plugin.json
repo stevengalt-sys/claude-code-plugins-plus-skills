@@ -1,0 +1,21 @@
+{
+  "name": "json-prompting-playbook",
+  "version": "1.0.0",
+  "description": "Convert natural language image descriptions into structured JSON prompts for AI image generation with reproducible, high-quality results",
+  "author": {
+    "name": "Duncan Rogoff",
+    "email": "duncan@nanobananapro.com"
+  },
+  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "license": "MIT",
+  "keywords": [
+    "json-prompting",
+    "image-generation",
+    "ai-art",
+    "prompt-engineering",
+    "nano-banana",
+    "structured-prompts",
+    "photography",
+    "agent-skills"
+  ]
+}

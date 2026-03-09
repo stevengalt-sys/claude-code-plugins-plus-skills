@@ -1,0 +1,21 @@
+{
+  "name": "design-workflow",
+  "version": "1.0.0",
+  "description": "Design productivity plugin for critique, UX writing, accessibility, design systems, research synthesis, and developer handoff",
+  "author": {
+    "name": "Claude Code Plugin Hub",
+    "email": "[email protected]"
+  },
+  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ux",
+    "accessibility",
+    "figma",
+    "design-system",
+    "critique",
+    "handoff",
+    "agent-skills"
+  ]
+}

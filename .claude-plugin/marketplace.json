@@ -1910,6 +1910,28 @@
       }
     },
     {
+      "name": "design-workflow",
+      "source": "./plugins/design/design-workflow",
+      "description": "Design productivity plugin for critique, UX writing, accessibility audits, design system reviews, research synthesis, and developer handoff",
+      "version": "1.0.0",
+      "category": "design",
+      "keywords": [
+        "design",
+        "ux",
+        "accessibility",
+        "figma",
+        "design-system",
+        "critique",
+        "handoff",
+        "ux-writing",
+        "agent-skills"
+      ],
+      "author": {
+        "name": "Claude Code Plugin Hub",
+        "email": "[email protected]"
+      }
+    },
+    {
       "name": "devops-automation-pack",
       "source": "./plugins/packages/devops-automation-pack",
       "description": "Complete DevOps automation suite with 25 plugins covering Git workflows, CI/CD pipelines, Docker optimization, Kubernetes management, Terraform IaC, and deployment strategies",

@@ -1,0 +1,24 @@
+{
+  "name": "epicenter-docs",
+  "version": "1.0.0",
+  "description": "Documentation and development guide for Epicenter — open-source, local-first apps sharing plain text and SQLite storage",
+  "author": {
+    "name": "EpicenterHQ",
+    "email": "hello@epicenter.so"
+  },
+  "repository": "https://github.com/EpicenterHQ/epicenter",
+  "homepage": "https://epicenter.so",
+  "license": "MIT",
+  "keywords": [
+    "epicenter",
+    "local-first",
+    "sqlite",
+    "plain-text",
+    "svelte",
+    "tauri",
+    "whispering",
+    "transcription",
+    "documentation",
+    "agent-skills"
+  ]
+}

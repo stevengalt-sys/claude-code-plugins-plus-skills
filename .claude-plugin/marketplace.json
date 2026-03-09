@@ -6015,6 +6015,28 @@
         "name": "B12.io",
         "url": "https://github.com/b12io"
       }
+    },
+    {
+      "name": "epicenter-docs",
+      "source": "./plugins/community/epicenter-docs",
+      "description": "Documentation and development guide for Epicenter — open-source, local-first apps sharing plain text and SQLite storage",
+      "version": "1.0.0",
+      "category": "community",
+      "keywords": [
+        "epicenter",
+        "local-first",
+        "sqlite",
+        "plain-text",
+        "svelte",
+        "tauri",
+        "whispering",
+        "transcription",
+        "documentation"
+      ],
+      "author": {
+        "name": "EpicenterHQ",
+        "email": "hello@epicenter.so"
+      }
     }
   ]
 }

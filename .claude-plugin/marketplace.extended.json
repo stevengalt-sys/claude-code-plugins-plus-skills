@@ -2922,6 +2922,25 @@
       }
     },
     {
+      "name": "microsoft-docs-mcp",
+      "source": "./plugins/mcp/microsoft-docs-mcp",
+      "description": "MCP server for searching and reading Microsoft Learn documentation",
+      "version": "1.0.0",
+      "category": "documentation",
+      "keywords": [
+        "mcp",
+        "microsoft",
+        "docs",
+        "documentation",
+        "microsoft-learn",
+        "search"
+      ],
+      "author": {
+        "name": "Nicholas Griffin"
+      },
+      "mcpTools": 2
+    },
+    {
       "name": "ml-model-trainer",
       "source": "./plugins/ai-ml/ml-model-trainer",
       "description": "Train and optimize machine learning models with automated workflows",

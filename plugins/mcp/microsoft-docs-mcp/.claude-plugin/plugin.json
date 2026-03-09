@@ -1,0 +1,17 @@
+{
+  "name": "microsoft-docs-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for searching and reading Microsoft Learn documentation",
+  "author": "Nicholas Griffin",
+  "repository": "https://github.com/nicholasgriffintn/microsoft-docs-mcp",
+  "homepage": "https://github.com/nicholasgriffintn/microsoft-docs-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "microsoft",
+    "docs",
+    "documentation",
+    "microsoft-learn",
+    "search"
+  ]
+}

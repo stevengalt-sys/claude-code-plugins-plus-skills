@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "microsoft-docs": {
+      "command": "npx",
+      "args": ["-y", "@nicholasgriffintn/microsoft-docs-mcp"]
+    }
+  }
+}

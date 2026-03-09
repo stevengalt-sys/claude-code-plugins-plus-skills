@@ -6084,6 +6084,29 @@
         "email": "plugins@claudecodeplugins.io",
         "url": "https://claudecodeplugins.io"
       }
+    },
+    {
+      "name": "design",
+      "source": "./plugins/knowledge-work-plugins/design",
+      "description": "Design knowledge-work toolkit for Claude Code. Create design system specs, conduct UX audits, and plan wireframes using structured patterns.",
+      "version": "1.0.0",
+      "category": "knowledge-work-plugins",
+      "keywords": [
+        "design",
+        "design-system",
+        "ux-audit",
+        "wireframes",
+        "ui",
+        "ux",
+        "knowledge-work",
+        "accessibility",
+        "component-library"
+      ],
+      "author": {
+        "name": "ClaudeCodePlugins",
+        "email": "plugins@claudecodeplugins.io",
+        "url": "https://claudecodeplugins.io"
+      }
     }
   ]
 }

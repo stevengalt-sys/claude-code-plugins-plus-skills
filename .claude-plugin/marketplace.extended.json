@@ -2242,6 +2242,30 @@
       }
     },
     {
+      "name": "lobbi-confluence",
+      "source": "./plugins/business-tools/lobbi-confluence",
+      "description": "Confluence documentation skill with Jira integration — templates, CQL search patterns, and best practices for technical docs.",
+      "version": "1.0.0",
+      "category": "business-tools",
+      "keywords": [
+        "confluence",
+        "atlassian",
+        "jira",
+        "documentation",
+        "wiki",
+        "technical-writing",
+        "cql"
+      ],
+      "author": {
+        "name": "lobbi-docs",
+        "email": "lobbi-docs@claudecodeplugins.io"
+      },
+      "repository": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+      "components": {
+        "skills": 1
+      }
+    },
+    {
       "name": "experiment-tracking-setup",
       "source": "./plugins/ai-ml/experiment-tracking-setup",
       "description": "Set up ML experiment tracking",

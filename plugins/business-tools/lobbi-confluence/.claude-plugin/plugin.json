@@ -1,0 +1,20 @@
+{
+  "name": "lobbi-confluence",
+  "version": "1.0.0",
+  "description": "Confluence documentation skill with Jira integration — templates, CQL search patterns, and best practices for technical docs.",
+  "author": {
+    "name": "lobbi-docs",
+    "email": "lobbi-docs@claudecodeplugins.io"
+  },
+  "repository": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+  "license": "MIT",
+  "keywords": [
+    "confluence",
+    "atlassian",
+    "jira",
+    "documentation",
+    "wiki",
+    "technical-writing",
+    "cql"
+  ]
+}

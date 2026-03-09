@@ -1,0 +1,20 @@
+{
+  "name": "sales",
+  "version": "1.0.0",
+  "description": "A comprehensive sales methodology plugin for managing pipelines, qualifying leads, crafting proposals, handling objections, and closing deals using proven frameworks like MEDDIC, SPIN, and Challenger Sale.",
+  "author": "Steven Galt (@stevengalt-sys)",
+  "license": "MIT",
+  "homepage": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+  "keywords": [
+    "sales",
+    "pipeline",
+    "leads",
+    "proposals",
+    "crm",
+    "objection-handling",
+    "closing",
+    "prospecting",
+    "MEDDIC",
+    "SPIN-selling"
+  ]
+}

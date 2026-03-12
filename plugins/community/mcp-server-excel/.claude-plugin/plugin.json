@@ -1,0 +1,26 @@
+{
+  "name": "mcp-server-excel",
+  "version": "1.0.0",
+  "description": "Automate Microsoft Excel through natural language via MCP server and CLI. Manage Power Query, Power Pivot, VBA, PivotTables, charts, ranges, and workbook sessions.",
+  "author": {
+    "name": "sbroenne",
+    "url": "https://github.com/sbroenne"
+  },
+  "repository": "https://github.com/sbroenne/mcp-server-excel",
+  "homepage": "https://excelmcpserver.dev/",
+  "license": "MIT",
+  "keywords": [
+    "excel",
+    "mcp",
+    "spreadsheet",
+    "power-query",
+    "power-pivot",
+    "dax",
+    "vba",
+    "pivottable",
+    "charts",
+    "automation",
+    "cli",
+    "windows"
+  ]
+}

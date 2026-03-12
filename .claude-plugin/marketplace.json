@@ -4285,6 +4285,29 @@
       }
     },
     {
+      "name": "superpowers",
+      "source": "./plugins/productivity/superpowers",
+      "description": "Unlock advanced Claude Code capabilities: multi-file refactoring, intelligent code generation, automated testing, and deep codebase analysis — all supercharged with battle-tested patterns and workflows",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "superpowers",
+        "productivity",
+        "refactoring",
+        "code-generation",
+        "testing",
+        "analysis",
+        "automation",
+        "workflow",
+        "multi-file",
+        "agent-skills"
+      ],
+      "author": {
+        "name": "Claude Plugins Official",
+        "email": "plugins@claudecodeplugins.io"
+      }
+    },
+    {
       "name": "travel-assistant",
       "source": "./plugins/productivity/travel-assistant",
       "description": "Intelligent travel assistant with real-time weather, currency conversion, timezone info, and AI-powered itinerary planning. Your complete travel companion.",

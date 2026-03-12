@@ -1,0 +1,23 @@
+{
+  "name": "superpowers",
+  "version": "1.0.0",
+  "description": "Unlock advanced Claude Code capabilities: multi-file refactoring, intelligent code generation, automated testing, and deep codebase analysis — all supercharged with battle-tested patterns and workflows",
+  "author": {
+    "name": "Claude Plugins Official",
+    "email": "plugins@claudecodeplugins.io"
+  },
+  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "license": "MIT",
+  "keywords": [
+    "superpowers",
+    "productivity",
+    "refactoring",
+    "code-generation",
+    "testing",
+    "analysis",
+    "automation",
+    "workflow",
+    "multi-file",
+    "agent-skills"
+  ]
+}

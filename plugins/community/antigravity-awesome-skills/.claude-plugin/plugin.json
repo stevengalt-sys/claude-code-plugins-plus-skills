@@ -1,0 +1,23 @@
+{
+  "name": "antigravity-awesome-skills",
+  "version": "7.6.0",
+  "description": "The Ultimate Collection of 1000+ Agentic Skills for Claude Code, Antigravity, and Cursor. Battle-tested, high-performance skills including threat modeling, security review, STRIDE analysis, attack trees, and comprehensive development playbooks.",
+  "author": "sickn33",
+  "repository": "https://github.com/sickn33/antigravity-awesome-skills",
+  "homepage": "https://github.com/sickn33/antigravity-awesome-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "agentic",
+    "threat-modeling",
+    "security",
+    "stride-analysis",
+    "attack-trees",
+    "security-review",
+    "devops",
+    "testing",
+    "debugging",
+    "antigravity",
+    "claude-code"
+  ]
+}

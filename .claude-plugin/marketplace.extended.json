@@ -6157,6 +6157,45 @@
       "components": {
         "skills": 1
       }
+    },
+    {
+      "name": "antigravity-awesome-skills",
+      "source": "./plugins/community/antigravity-awesome-skills",
+      "description": "The Ultimate Collection of 1000+ Agentic Skills for Claude Code, Antigravity, and Cursor. Battle-tested, high-performance skills including threat modeling, security review, STRIDE analysis, attack trees, and comprehensive development playbooks.",
+      "version": "7.6.0",
+      "category": "community",
+      "keywords": [
+        "skills",
+        "agentic",
+        "threat-modeling",
+        "security",
+        "stride-analysis",
+        "attack-trees",
+        "security-review",
+        "backend-security",
+        "frontend-security",
+        "devops",
+        "testing",
+        "debugging",
+        "planning",
+        "coding",
+        "infrastructure",
+        "antigravity",
+        "cursor",
+        "claude-code"
+      ],
+      "author": {
+        "name": "sickn33",
+        "url": "https://github.com/sickn33"
+      },
+      "components": {
+        "skills": 1000
+      },
+      "external_sync": {
+        "enabled": true,
+        "source_repo": "sickn33/antigravity-awesome-skills",
+        "source_path": "skills"
+      }
     }
   ]
 }

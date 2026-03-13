@@ -89,6 +89,34 @@ sources:
       - "*.log"
 
   # ============================================================
+  # Antigravity Awesome Skills (sickn33)
+  # https://github.com/sickn33/antigravity-awesome-skills
+  # ============================================================
+
+  - name: antigravity-awesome-skills
+    description: "The Ultimate Collection of 1000+ Agentic Skills for Claude Code"
+    repo: sickn33/antigravity-awesome-skills
+    source_path: skills
+    target_path: plugins/community/antigravity-awesome-skills
+    author:
+      name: sickn33
+      github: sickn33
+    license: MIT
+    category: community
+    verified: true
+    include:
+      - "**/*.md"
+      - "**/*.json"
+      - "**/scripts/**"
+      - "**/examples/**"
+      - "**/resources/**"
+    exclude:
+      - "node_modules/**"
+      - ".git/**"
+      - "*.log"
+      - ".env*"
+
+  # ============================================================
   # Add more external sources below
   # ============================================================
 

@@ -1,0 +1,12 @@
+{
+  "name": "superpowers",
+  "version": "1.0.0",
+  "description": "Creative thinking superpowers for Claude Code: brainstorming, first-principles reasoning, reverse-engineering problems, and red-team thinking",
+  "author": {
+    "name": "Jeremy Longshore",
+    "email": "jeremy@intentsolutions.io"
+  },
+  "repository": "https://github.com/anthropics/claude-code-plugins-plus",
+  "license": "MIT",
+  "keywords": ["brainstorming", "creativity", "first-principles", "red-team", "problem-solving", "thinking", "superpowers"]
+}

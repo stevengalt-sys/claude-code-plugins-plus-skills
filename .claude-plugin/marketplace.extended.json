@@ -6157,6 +6157,32 @@
       "components": {
         "skills": 1
       }
+    },
+    {
+      "name": "superpowers",
+      "source": "./plugins/productivity/superpowers",
+      "description": "Creative thinking superpowers for Claude Code: brainstorming, first-principles reasoning, reverse-engineering problems, and red-team thinking. Structured approaches to problem-solving that go beyond standard coding assistance.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "brainstorming",
+        "creativity",
+        "first-principles",
+        "red-team",
+        "problem-solving",
+        "thinking",
+        "superpowers",
+        "reverse-engineering"
+      ],
+      "author": {
+        "name": "Jeremy Longshore",
+        "email": "jeremy@intentsolutions.io"
+      },
+      "components": {
+        "commands": 3,
+        "skills": 4,
+        "total": 7
+      }
     }
   ]
 }

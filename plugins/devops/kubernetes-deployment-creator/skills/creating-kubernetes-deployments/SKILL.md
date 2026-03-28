@@ -1,9 +1,10 @@
 ---
 name: creating-kubernetes-deployments
 description: |
-  Deploy applications to Kubernetes with production-ready manifests.
+  Use when the user wants to deploy applications to Kubernetes with production-ready manifests.
   Supports Deployments, Services, Ingress, HPA, ConfigMaps, Secrets, StatefulSets, and NetworkPolicies.
   Includes health checks, resource limits, auto-scaling, and TLS termination.
+  Trigger with phrases like: 'create kubernetes deployment', 'deploy to k8s', 'generate kubernetes manifests', 'set up kubernetes service'.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(kubectl:*)
 version: 2.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

@@ -1,10 +1,12 @@
 ---
 name: yt-brief
 description: |
-  Refine a YouTube video idea into a structured production brief with angle, key points, value proposition,
+  Use when the user wants to turn a YouTube video idea into a structured production brief with a defined
+  angle, key points, value proposition, CTA asset, and audience segment. Refine a YouTube video idea into a structured production brief with angle, key points, value proposition,
   CTA asset, and audience segment. Use this skill whenever the user says "create a brief", "brief this idea",
   "develop this idea", "write a video brief", "production brief", or has selected a video idea from ideation
   and wants to define the angle and structure before packaging and outlining.
+  Trigger with phrases like: 'create a brief', 'brief this idea', 'write a video brief', 'production brief', 'develop this video idea'.
 allowed-tools: WebSearch, Read, Write
 version: 1.0.0
 author: Claude Code Plugins <plugins@claudecodeplugins.io>

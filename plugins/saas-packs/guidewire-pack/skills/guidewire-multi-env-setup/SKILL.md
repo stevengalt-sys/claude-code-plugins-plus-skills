@@ -1,6 +1,7 @@
 ---
 name: guidewire-multi-env-setup
 description: |
+  Use when the user wants to set up or manage multiple Guidewire environments, configure environment isolation, or establish promotion workflows.
   Configure multi-environment setup for Guidewire InsuranceSuite including development,
   staging, and production environments with proper isolation and promotion workflows.
   Trigger with phrases like "guidewire environments", "multi-environment",

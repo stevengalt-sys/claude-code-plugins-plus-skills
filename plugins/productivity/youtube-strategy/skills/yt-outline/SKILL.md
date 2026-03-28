@@ -1,10 +1,12 @@
 ---
 name: yt-outline
 description: |
-  Build detailed step-by-step YouTube video outlines with demo prep, screen-share sequences, and visual
+  Use when the user wants to build a detailed step-by-step YouTube video outline with demo prep,
+  screen-share sequences, and visual planning. Build detailed step-by-step YouTube video outlines with demo prep, screen-share sequences, and visual
   planning. Use this skill whenever the user says "create an outline", "outline this video", "video outline",
   "build the outline", "production outline", or has an approved brief and packaging and needs the final
   pre-production document before demo prep and filming.
+  Trigger with phrases like: 'create an outline', 'outline this video', 'production outline', 'build the outline', 'video script outline'.
 allowed-tools: WebSearch, Read, Write
 version: 1.0.0
 author: Claude Code Plugins <plugins@claudecodeplugins.io>

@@ -1,6 +1,7 @@
 ---
 name: guidewire-security-basics
 description: |
+  Use when the user wants to implement security best practices, configure OAuth2 or JWT authentication, or write secure Gosu code in Guidewire.
   Implement security best practices for Guidewire InsuranceSuite including OAuth2,
   JWT handling, API roles, secure Gosu coding, and data protection.
   Trigger with phrases like "guidewire security", "oauth2 guidewire",

@@ -1,10 +1,12 @@
 ---
 name: yt-packaging
 description: |
+  Use when the user wants to create optimized YouTube titles and thumbnail concepts to maximize CTR.
   Create optimized YouTube titles and thumbnail concepts for maximum CTR. Use this skill whenever the user
   says "title ideas", "thumbnail concepts", "package this video", "CTR optimization", "title options", "packaging",
   or has an approved brief and needs to finalize the title and thumbnail direction before outlining. Packaging
   determines whether viewers click.
+  Trigger with phrases like: 'title ideas', 'thumbnail concepts', 'package this video', 'CTR optimization', 'title options for my video'.
 allowed-tools: WebSearch, Read, Write
 version: 1.0.0
 author: Claude Code Plugins <plugins@claudecodeplugins.io>

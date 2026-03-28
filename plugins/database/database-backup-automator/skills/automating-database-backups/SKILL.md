@@ -1,10 +1,10 @@
 ---
 name: automating-database-backups
 description: |
-  Automate database backup processes with scheduling, compression, and encryption.
+  Use when the user wants to automate database backup processes with scheduling, compression, and encryption.
   Supports PostgreSQL (pg_dump), MySQL (mysqldump), MongoDB (mongodump), and SQLite.
   Generates production-ready backup scripts with retention policies and restore procedures.
-  Trigger: "automate database backups", "schedule backups", "create backup script", "disaster recovery".
+  Trigger with phrases like: 'automate database backups', 'schedule backups', 'create backup script', 'disaster recovery'.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash(pg_dump:*), Bash(mysqldump:*), Bash(mongodump:*), Bash(cron:*), Bash(gpg:*)
 version: 2.0.0
 author: Jeremy Longshore <jeremy@intentsolutions.io>

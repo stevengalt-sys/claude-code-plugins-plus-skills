@@ -1,6 +1,7 @@
 ---
 name: guidewire-data-handling
 description: |
+  Use when the user wants to manage data in Guidewire InsuranceSuite, handle entity operations, or set up data governance practices.
   Data handling best practices for Guidewire InsuranceSuite including entity management,
   data migration, batch operations, and data governance.
   Trigger with phrases like "guidewire data", "entity management",

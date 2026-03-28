@@ -1,11 +1,12 @@
 ---
 name: neurodivergent-visual-org
 description: |
-  Creates ADHD-friendly visual organizational tools using Mermaid diagrams
+  Use when the user wants to create ADHD-friendly visual organizational tools using Mermaid diagrams
   optimized for neurodivergent thinking patterns. Auto-detects overwhelm,
   provides compassionate task breakdowns with realistic time estimates.
-  Use when creating visual task breakdowns, decision trees, or organizational
+  Useful for creating visual task breakdowns, decision trees, or organizational
   diagrams for neurodivergent users or accessibility-focused projects.
+  Trigger with phrases like: 'visual task breakdown', 'ADHD-friendly diagram', 'neurodivergent org chart', 'help me organize visually'.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 version: 3.1.1
 author: Jack Reis <hello@jack.digital>

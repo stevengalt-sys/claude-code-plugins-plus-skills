@@ -1,6 +1,7 @@
 ---
 name: guidewire-cost-tuning
 description: |
+  Use when the user wants to optimize Guidewire Cloud costs, reduce spending, or right-size infrastructure.
   Optimize Guidewire Cloud costs including license management, resource allocation,
   API usage optimization, and cloud infrastructure right-sizing.
   Trigger with phrases like "guidewire costs", "reduce spending",

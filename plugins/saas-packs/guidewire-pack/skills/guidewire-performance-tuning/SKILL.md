@@ -1,6 +1,7 @@
 ---
 name: guidewire-performance-tuning
 description: |
+  Use when the user wants to improve Guidewire InsuranceSuite performance, optimize slow queries, or tune JVM and batch processing.
   Optimize Guidewire InsuranceSuite performance including query optimization,
   batch processing, caching, and JVM tuning.
   Trigger with phrases like "guidewire performance", "slow queries",

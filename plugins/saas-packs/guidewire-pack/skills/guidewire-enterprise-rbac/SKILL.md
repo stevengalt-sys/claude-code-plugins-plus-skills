@@ -1,6 +1,7 @@
 ---
 name: guidewire-enterprise-rbac
 description: |
+  Use when the user wants to configure role-based access control, manage user permissions, or set up security policies in Guidewire.
   Implement enterprise role-based access control for Guidewire InsuranceSuite
   including API roles, user permissions, and security policies.
   Trigger with phrases like "guidewire rbac", "permissions guidewire",

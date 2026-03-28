@@ -1,10 +1,11 @@
 ---
 name: yt-research
 description: |
-  Research competitor YouTube channels, niches, and trending topics for your content strategy.
+  Use when the user wants to research competitor YouTube channels, analyze niches, or find trending topics for content strategy.
   Use this skill whenever the user says "research channels", "analyze competitors", "find trending topics",
   "niche analysis", "competitive research", "what are other creators doing", "scrape YouTube channels",
   or wants to understand the competitive landscape for a specific tool or topic area.
+  Trigger with phrases like: 'research channels', 'analyze competitors', 'niche analysis', 'trending topics', 'competitive research'.
 allowed-tools: WebSearch, Read, Write, Task
 version: 1.0.0
 author: Claude Code Plugins <plugins@claudecodeplugins.io>

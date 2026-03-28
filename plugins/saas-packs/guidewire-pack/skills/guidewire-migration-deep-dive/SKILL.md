@@ -1,6 +1,7 @@
 ---
 name: guidewire-migration-deep-dive
 description: |
+  Use when the user wants to plan or execute a Guidewire migration, move from self-managed to Cloud, or coordinate cutover strategies.
   Deep dive into Guidewire migration strategies including self-managed to Cloud,
   legacy system migrations, data migration, and integration cutover planning.
   Trigger with phrases like "guidewire migration", "cloud migration",

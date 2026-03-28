@@ -1,6 +1,7 @@
 ---
 name: guidewire-observability
 description: |
+  Use when the user wants to set up monitoring, logging, or alerting for Guidewire InsuranceSuite, or implement distributed tracing.
   Implement comprehensive observability for Guidewire InsuranceSuite including logging,
   metrics, tracing, and alerting.
   Trigger with phrases like "guidewire monitoring", "logging guidewire",

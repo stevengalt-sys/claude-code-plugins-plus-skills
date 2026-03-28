@@ -1,0 +1,20 @@
+{
+  "name": "auto-research",
+  "version": "1.0.0",
+  "description": "Automatically conducts deep web research on any topic and synthesizes findings into structured reports",
+  "author": {
+    "name": "Claude Code Plugins Team",
+    "email": "hello@claudecodeplugins.io",
+    "url": "https://claudecodeplugins.io"
+  },
+  "repository": "https://github.com/jeremylongshore/claude-code-plugins",
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "automation",
+    "web-search",
+    "synthesis",
+    "reports",
+    "skill-enhancer"
+  ]
+}

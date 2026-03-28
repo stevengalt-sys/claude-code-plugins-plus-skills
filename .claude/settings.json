@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\": {\"hookEventName\": \"UserPromptSubmit\", \"additionalContext\": \"MANDATORY SKILL EVALUATION: Before responding, review every skill listed in <available_skills>. For each skill, determine YES or NO whether it applies to this request. If YES for any skill, invoke it using the Skill tool BEFORE writing your response. This check is MANDATORY and cannot be skipped.\"}}'",
+            "statusMessage": "Evaluating skills..."
+          }
+        ]
+      }
+    ]
+  }
+}

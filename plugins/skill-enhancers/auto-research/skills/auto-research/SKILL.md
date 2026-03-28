@@ -1,11 +1,12 @@
 ---
 name: auto-research
 description: |
-  Automatically conduct deep web research on any topic and synthesize findings into a structured report.
-  Use this skill when the user says "research", "look into", "find out about", "investigate",
-  "auto research", "deep dive into", "gather information on", "what do you know about X",
-  or asks for a comprehensive overview of any topic, technology, person, company, or concept.
-  Triggers on: "research X", "auto-research X", "look into X", "investigate X", "deep dive X".
+  Use when the user wants to research a topic, gather information, or get a comprehensive overview.
+  Use when user asks to "research X", "look into X", "investigate X", "auto-research X",
+  "deep dive into X", "find out about X", "gather info on X", or wants background on any
+  topic, technology, person, company, or concept.
+  Trigger with phrases like: "research", "auto research", "look into", "investigate",
+  "deep dive", "find out about", "gather information", "what do you know about".
 allowed-tools: WebSearch, WebFetch, Read, Write, TodoWrite
 version: 1.0.0
 author: Claude Code Plugins Team <hello@claudecodeplugins.io>

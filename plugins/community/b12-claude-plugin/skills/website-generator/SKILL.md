@@ -7,6 +7,7 @@ description: |
 allowed-tools: AskUserQuestion
 version: 1.0.0
 author: B12.io <https://github.com/b12io>
+license: MIT
 ---
 
 # Website Generator Skill

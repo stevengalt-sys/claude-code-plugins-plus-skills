@@ -1,0 +1,21 @@
+{
+  "name": "universal-scraping-architect",
+  "version": "2.9.0",
+  "description": "A universal scraping skill with intelligent routing, token budget tracking, and quota awareness. Supports Firecrawl and local Python extraction (firecrawl, pandas, requests, beautifulsoup4). Free-tier compatible, BYOK.",
+  "author": {
+    "name": "Mehansh Barthwal",
+    "url": "https://github.com/mehanshbarthwal-lab"
+  },
+  "repository": "https://github.com/alirezarezvani/claude-skills",
+  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/universal-scraping-architect",
+  "license": "MIT",
+  "keywords": [
+    "scraping",
+    "data-extraction",
+    "firecrawl",
+    "beautifulsoup4",
+    "pandas",
+    "automation",
+    "agent-skills"
+  ]
+}

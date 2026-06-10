@@ -1,0 +1,20 @@
+{
+  "name": "data-quality-auditor",
+  "version": "2.9.0",
+  "description": "Audit datasets for completeness, consistency, accuracy, and validity. 3 stdlib-only Python tools: data profiler with DQS scoring, missing value analyzer with MCAR/MAR/MNAR classification, and multi-method outlier detector.",
+  "author": {
+    "name": "Alireza Rezvani",
+    "url": "https://alirezarezvani.com"
+  },
+  "repository": "https://github.com/alirezarezvani/claude-skills",
+  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/data-quality-auditor",
+  "license": "MIT",
+  "keywords": [
+    "data-quality",
+    "profiling",
+    "outlier-detection",
+    "missing-values",
+    "data-audit",
+    "agent-skills"
+  ]
+}

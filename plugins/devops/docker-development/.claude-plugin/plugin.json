@@ -1,0 +1,20 @@
+{
+  "name": "docker-development",
+  "version": "2.9.0",
+  "description": "Docker and container development agent skill and plugin for Dockerfile optimization, docker-compose orchestration, multi-stage builds, and container security hardening. Covers build performance, layer caching, and production-ready container patterns.",
+  "author": {
+    "name": "Alireza Rezvani",
+    "url": "https://alirezarezvani.com"
+  },
+  "repository": "https://github.com/alirezarezvani/claude-skills",
+  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/docker-development",
+  "license": "MIT",
+  "keywords": [
+    "docker",
+    "container",
+    "dockerfile",
+    "docker-compose",
+    "devops",
+    "agent-skills"
+  ]
+}

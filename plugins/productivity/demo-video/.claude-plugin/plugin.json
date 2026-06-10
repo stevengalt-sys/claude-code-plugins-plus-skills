@@ -1,0 +1,21 @@
+{
+  "name": "demo-video",
+  "version": "2.9.0",
+  "description": "Create polished demo videos from screenshots and scene descriptions. Orchestrates playwright, ffmpeg, and edge-tts to produce product walkthroughs, feature showcases, and marketing teasers with story structure, scene design system, and narration guidance.",
+  "author": {
+    "name": "Alireza Rezvani",
+    "url": "https://alirezarezvani.com"
+  },
+  "repository": "https://github.com/alirezarezvani/claude-skills",
+  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/demo-video",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "demo",
+    "product-demo",
+    "walkthrough",
+    "ffmpeg",
+    "tts",
+    "agent-skills"
+  ]
+}

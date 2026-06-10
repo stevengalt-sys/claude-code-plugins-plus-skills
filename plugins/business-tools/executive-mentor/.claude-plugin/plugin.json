@@ -1,0 +1,21 @@
+{
+  "name": "executive-mentor",
+  "version": "2.9.0",
+  "description": "Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for board meetings, navigates hard decisions, and forces honest post-mortems.",
+  "author": {
+    "name": "Alireza Rezvani",
+    "url": "https://alirezarezvani.com"
+  },
+  "repository": "https://github.com/alirezarezvani/claude-skills",
+  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/executive-mentor",
+  "license": "MIT",
+  "keywords": [
+    "executive",
+    "mentor",
+    "stress-test",
+    "board-prep",
+    "founder",
+    "leadership",
+    "agent-skills"
+  ]
+}

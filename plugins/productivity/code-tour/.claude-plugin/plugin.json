@@ -1,0 +1,20 @@
+{
+  "name": "code-tour",
+  "version": "2.9.0",
+  "description": "Create CodeTour .tour files \u2014 persona-targeted, step-by-step walkthroughs that link to real files and line numbers. Supports 10 developer personas (vibecoder, new joiner, architect, security reviewer, etc.), all CodeTour step types, and SMIG description formula.",
+  "author": {
+    "name": "Alireza Rezvani",
+    "url": "https://alirezarezvani.com"
+  },
+  "repository": "https://github.com/alirezarezvani/claude-skills",
+  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/code-tour",
+  "license": "MIT",
+  "keywords": [
+    "codetour",
+    "walkthrough",
+    "onboarding",
+    "code-review",
+    "documentation",
+    "agent-skills"
+  ]
+}

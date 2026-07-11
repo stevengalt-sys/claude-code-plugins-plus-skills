@@ -4839,6 +4839,35 @@
       "strict": true
     },
     {
+      "name": "visual-explainer",
+      "source": "./plugins/productivity/visual-explainer",
+      "description": "Generate beautiful self-contained HTML pages for diagrams, diff reviews, plan reviews, slides, and data tables instead of terminal ASCII art.",
+      "version": "0.8.1",
+      "category": "productivity",
+      "keywords": [
+        "diagrams",
+        "html",
+        "visualization",
+        "mermaid",
+        "diff-review",
+        "slides",
+        "documentation",
+        "code-review",
+        "architecture"
+      ],
+      "author": {
+        "name": "nicobailon"
+      },
+      "repository": "https://github.com/nicobailon/visual-explainer",
+      "tags": [
+        "diagrams",
+        "html-generation",
+        "mermaid",
+        "slides",
+        "code-review"
+      ]
+    },
+    {
       "name": "jeremy-adk-software-engineer",
       "source": "./plugins/ai-ml/jeremy-adk-software-engineer",
       "description": "ADK software engineer for creating production-ready agents (placeholder - to be implemented)",

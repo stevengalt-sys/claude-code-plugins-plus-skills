@@ -1,0 +1,14 @@
+{
+  "synced_from": {
+    "repo": "nicobailon/visual-explainer",
+    "path": "plugins/visual-explainer",
+    "branch": "main"
+  },
+  "author": {
+    "name": "nicobailon",
+    "github": "nicobailon"
+  },
+  "license": "MIT",
+  "upstream_version": "0.8.1",
+  "note": "Vendored manually with attribution. Full plugin (commands + skill + templates) is not covered by the sources.yaml skill-only sync mechanism."
+}

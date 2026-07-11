@@ -1,0 +1,19 @@
+{
+  "name": "visual-explainer",
+  "description": "Generate beautiful self-contained HTML pages for diagrams, diff reviews, plan reviews, slides, and data tables instead of terminal ASCII art.",
+  "version": "0.8.1",
+  "author": {
+    "name": "nicobailon"
+  },
+  "repository": "https://github.com/nicobailon/visual-explainer",
+  "license": "MIT",
+  "keywords": [
+    "diagrams",
+    "html",
+    "visualization",
+    "mermaid",
+    "diff-review",
+    "slides",
+    "documentation"
+  ]
+}

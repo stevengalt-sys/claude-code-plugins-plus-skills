@@ -23740,6 +23740,30 @@
       "filePath": "plugins/devops/jeremy-vertex-terraform/skills/vertex-infra-expert/SKILL.md"
     },
     {
+      "slug": "visual-explainer",
+      "name": "visual-explainer",
+      "description": "Generate self-contained HTML visual explanations for systems, code changes, plans, data, and technical concepts. Use for diagrams, architecture overviews, diff or plan reviews, project recaps, comparison tables, slide decks, and other visual explanations.",
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Bash",
+        "Glob",
+        "Grep"
+      ],
+      "version": "0.8.1",
+      "author": "nicobailon",
+      "license": "MIT",
+      "content": "# Visual Explainer\n\nGenerate self-contained HTML pages that explain systems, code changes, plans, data, and technical concepts visually. Use this skill for diagram requests, architecture overviews, diff/plan reviews, project recaps, comparison tables, slide decks, and any visual explanation.\n\n## Trigger and delivery rules\n\n- Prefer an HTML page over terminal ASCII when the output is inherently visual.\n- If a table would have 4+ rows or 3+ columns, render it as HTML and give only a short chat summary.\n- Write files to `~/.agent/diagrams/` or the explicit eval output path. Use descriptive filenames.\n- Open generated pages in the browser when running normally. In Pi package installs, use `visual_explainer` with `prepare` for planning/context and `render` only after the complete HTML document exists.\n- The final page must be a complete self-contained HTML document, including embedded CSS and any needed JS.\n\n## Reference routing\n\nRead only the references needed for the current output:\n\n| Need | Read |\n|---|---|\n| Text-heavy architecture/cards | `./templates/architecture.html` |\n| Mermaid flowcharts, sequence, ER, state, class, C4, data flow | `./templates/mermaid-flowchart.html`, Mermaid sections in `./references/libraries.md` |\n| Data tables, comparisons, audits | `./templates/data-table.html` |\n| Slide decks | `./templates/slide-deck.html`, `./references/slide-patterns.md` |\n| CSS layout, overflow, depth, collapsibles, SVG connectors, generated images | `./references/css-patterns.md` |\n| Pages with 4+ major sections | `./references/responsive-nav.md` |\n| Prose-heavy pages | “Prose Page Elements” in `css-patterns.md`, typography sections in `libraries.md` |\n\n## Choose the representation\n\n| Content | Default representation |\n|---|---|\n| Flowchart, pipeline, state machine, decision tree | Mermaid |\n| Sequence, ER/schema, class, C4, topology-focused architecture | Mermaid |\n| Text-heavy architecture, module internals, implementation plans | CSS grid cards, optionally with a Mermaid overview |\n| 15+ element architecture | Hybrid: small Mermaid overview + CSS detail cards |\n| Comparison/audit/status matrix | Semantic HTML `<table>` |\n| Timeline/roadmap | CSS timeline |\n| Dashboard/metrics | CSS grid + charts/KPIs |\n| Slide deck | `100dvh` slides using slide template patterns |\n\n## Mermaid invariants\n\n- Use `theme: 'base'` with custom `themeVariables` matching the page palette.\n- For complex diagrams use ELK layout when available.\n- Never use bare `<pre class=\"mermaid\">`.\n- Use the canonical `diagram-shell` pattern from `templates/mermaid-flowchart.html`: `.diagram-shell` > `.mermaid-wrap` > `.zoom-controls` + `.mermaid-viewport` > `.mermaid-canvas`.\n- Every Mermaid diagram needs zoom in/out/reset/expand controls, Ctrl/Cmd+scroll zoom, drag panning, and click-to-expand.\n- Prefer `flowchart TD` for complex diagrams. Use `LR` only for simple 3–4 node linear flows.\n- Use `<br/>` in quoted flowchart labels. Do not use escaped `\\n` labels.\n- Never define page-level `.node`; Mermaid uses it internally. Use namespaced page classes such as `.ve-card`.\n- For 15+ elements, do not cram everything into one Mermaid diagram. Use the hybrid overview + cards pattern.\n\n## Layout and style invariants\n\n- Use semantic HTML where it helps accessibility and copy/paste: `<table>`, headings, lists, `<details>`, captions.\n- Use CSS custom properties for palette: `--bg`, `--surface`, `--border`, `--text`, `--text-dim`, and 3–5 accents.\n- Pick a clear aesthetic direction before writing: blueprint, editorial, paper/ink, terminal, IDE-inspired, or data-dense.\n- Avoid generic defaults: no body font that is only Inter, Roboto, Arial, Helvetica, or system-ui; no violet/fuchsia Tailwind-default accents as the main palette (`#8b5cf6`, `#7c3aed`, `#a78bfa`, `#d946ef`); no cyan+magenta+purple neon dashboard; no gradient-mesh blobs.\n- Good font pair families: DM Sans + Fira Code; Instrument Serif + JetBrains Mono; IBM Plex Sans + IBM Plex Mono; Bricolage Grotesque + Fragment Mono; Plus Jakarta Sans + Azeret Mono.\n- Good accent directions: terracotta+sage, teal+slate, rose+cranberry, amber+emerald, deep blue+gold.\n- Prevent overflow: `min-width: 0` on grid/flex children, `overflow-wrap: break-word` for long text, and scroll containers for wide tables/code.\n- Do not set `display: flex` directly on `<li>` when list markers matter.\n- Use depth sparingly: hero/elevated only for primary sections; flat/recessed for reference material.\n- Use entrance/hover animation only when it clarifies hierarchy. Respect `prefers-reduced-motion`. Do not use continuous glow, pulse, or breathing effects on static content.\n\n## Slide deck mode\n\nUse slides only when explicitly requested or when a command asks for slides. Slides are a different medium, not a paginated article:\n\n- Each slide is one viewport (`100dvh`) with no page-level scrolling.\n- Use larger type, fewer objects per slide, varied compositions, and visible navigation.\n- Include slide nav chrome from `slide-deck.html`: prev/next controls, slide count, keyboard navigation, and carousel dots/indicators.\n- Before writing HTML, inventory the source and map every source item to slides.\n- Do not drop content to fit a fixed slide count. Add slides instead.\n- Use the 10 slide types from `slide-patterns.md`: Title, Section Divider, Content, Split, Diagram, Dashboard, Table, Code, Quote, Full-Bleed.\n\n## Optional generated images\n\nIf `surf` is available, generated images may be embedded as base64 for hero banners, conceptual illustrations, or educational visuals. Skip images for data-heavy, structural, or Mermaid/CSS-suitable content. Pages must stand on CSS, typography, and diagrams without images.\n\n## Final checklist\n\nBefore delivery, verify:\n\n- complete HTML document;\n- output written to the requested path;\n- no console errors when opened;\n- no horizontal overflow at normal desktop width;\n- fonts load with fallbacks;\n- tables preserve rows/columns and wrap long text;\n- Mermaid diagrams use `diagram-shell` with zoom/pan/expand;\n- slides fit one viewport, include carousel dots, and preserve source coverage;\n- visual hierarchy makes the main idea obvious in the first viewport;\n- styling would still be recognizable if compared against a generic dark/violet template.",
+      "parentPlugin": {
+        "name": "visual-explainer",
+        "category": "productivity",
+        "path": "plugins/productivity/visual-explainer",
+        "version": "0.8.1",
+        "description": "Generate beautiful self-contained HTML pages for diagrams, diff reviews, plan reviews, slides, and data tables instead of terminal ASCII art."
+      },
+      "filePath": "plugins/productivity/visual-explainer/skills/visual-explainer/SKILL.md"
+    },
+    {
       "slug": "website-generator",
       "name": "website-generator",
       "description": "Use when the user asks to create a website, build a site, generate a landing page, or mentions B12. Trigger phrases: \"create a website\", \"build me a site\", \"website for my business\", \"generate a landing page\", \"B12 website\". allowed-tools: AskUserQuestion version: 1.0.0 author: B12.io <https://github.com/b12io>",
@@ -24424,8 +24448,8 @@
       "filePath": "plugins/community/zai-cli/skills/zai-cli/SKILL.md"
     }
   ],
-  "count": 1342,
-  "generatedAt": "2026-03-05T01:56:05.639Z",
+  "count": 1343,
+  "generatedAt": "2026-07-11T08:47:06.994Z",
   "categories": [
     "ai-ml",
     "api-development",
@@ -24448,6 +24472,7 @@
   ],
   "allowedToolsUsed": [
     "\"Read",
+    "Bash",
     "Bash(analysis:*)\"",
     "Bash(artillery:*)",
     "Bash(audit:*)\"",
@@ -24492,6 +24517,7 @@
     "Glob\"",
     "Grep",
     "Grep\"",
+    "Read",
     "WebFetch",
     "WebSearch",
     "Write"

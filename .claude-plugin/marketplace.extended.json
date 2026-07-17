@@ -6002,6 +6002,37 @@
       }
     },
     {
+      "name": "hallmark",
+      "source": "./plugins/community/hallmark",
+      "description": "Anti-AI-slop design skill that makes generated UIs look made, not generated. Picks a macrostructure, applies one of twenty themes, runs 57 slop-test gates plus a pre-emit self-critique, and supports audit/redesign/study verbs. Powered by Together AI.",
+      "version": "1.1.0",
+      "category": "community",
+      "keywords": [
+        "design",
+        "ui",
+        "anti-ai-slop",
+        "frontend",
+        "typography",
+        "oklch",
+        "landing-page",
+        "together-ai",
+        "hallmark",
+        "claude-code"
+      ],
+      "author": {
+        "name": "Hassan El Mghari (nutlope)",
+        "url": "https://github.com/nutlope"
+      },
+      "components": {
+        "skills": 1
+      },
+      "external_sync": {
+        "enabled": true,
+        "source_repo": "nutlope/hallmark",
+        "source_path": "skills/hallmark"
+      }
+    },
+    {
       "name": "zai-cli",
       "source": "./plugins/community/zai-cli",
       "description": "Z.AI vision, search, reader, and GitHub exploration via CLI and MCP. Analyze images, search the web, read pages as markdown, explore repos.",

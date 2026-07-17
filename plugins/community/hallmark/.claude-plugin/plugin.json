@@ -1,0 +1,24 @@
+{
+  "name": "hallmark",
+  "version": "1.1.0",
+  "description": "Anti-AI-slop design skill that makes generated UIs look made, not generated. Picks a macrostructure, applies one of twenty themes, runs 57 slop-test gates plus a pre-emit self-critique, and supports audit/redesign/study verbs. Powered by Together AI.",
+  "author": {
+    "name": "Hassan El Mghari (nutlope)",
+    "url": "https://github.com/nutlope"
+  },
+  "repository": "https://github.com/nutlope/hallmark",
+  "homepage": "https://www.usehallmark.com",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ui",
+    "anti-ai-slop",
+    "frontend",
+    "typography",
+    "oklch",
+    "landing-page",
+    "together-ai",
+    "hallmark",
+    "claude-code"
+  ]
+}

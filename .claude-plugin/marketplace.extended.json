@@ -2242,6 +2242,37 @@
       }
     },
     {
+      "name": "business-operations",
+      "source": "./plugins/business-tools/business-operations",
+      "description": "6 BizOps skills + 1 orchestrator for internal operators: process-mapper (BPMN + bottleneck + cycle-time), vendor-management (SLA + risk + scorecard), capacity-planner (Erlang-C queueing math), internal-comms (ADKAR + Kotter 8-step change comms), knowledge-ops (SOP + runbook authoring with 5W2H validation), and procurement-optimizer (UNSPSC spend categorization + supplier consolidation). Ships 18 stdlib-only Python tools, cited reference docs, and asset templates per skill.",
+      "version": "2.9.0",
+      "category": "business-tools",
+      "keywords": [
+        "business-operations",
+        "bizops",
+        "process-mapping",
+        "vendor-management",
+        "capacity-planning",
+        "internal-comms",
+        "knowledge-ops",
+        "procurement",
+        "bpmn",
+        "lean-six-sigma"
+      ],
+      "author": {
+        "name": "Alireza Rezvani",
+        "url": "https://alirezarezvani.com"
+      },
+      "repository": "https://github.com/alirezarezvani/claude-skills",
+      "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/business-operations",
+      "license": "MIT",
+      "components": {
+        "skills": 7,
+        "commands": 8,
+        "agents": 1
+      }
+    },
+    {
       "name": "experiment-tracking-setup",
       "source": "./plugins/ai-ml/experiment-tracking-setup",
       "description": "Set up ML experiment tracking",
